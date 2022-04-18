@@ -21,8 +21,8 @@ mongoose.connect(process.env.MONGOSTRING, {useNewUrlParser: true, useUnifiedTopo
 	process.exit();
 
 	const webhook = new WebhookClient({
-		id: "949123435248898068",
-		token: "EbxoWXQe7_3oU4H6psYf7HQiAClzSOL-VtdBasflT7e3x2Bg1yLcO69OJBYQI8Rdr1pO"
+		id: "",
+		token: ""
 	});
 
 	await webhook.send({
